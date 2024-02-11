@@ -4,6 +4,10 @@ This is a demo application that allows users to record video using their webcam 
 It utilizes the `react-webcam` package for webcam access and recording functionality.
 Audio is silent for recorder during recording.
 
+## demo
+
+[DEMO](https://stackblitz.com/~/github.com/dpejic/react-fullscreen-video-recording)
+
 ## features
 
 - Record video using your webcam in fullscreen mode.
