@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.camera-button {
+  padding: 10px;
+  width: max-content;
+}
+
+.video-showcase {
+  max-width: 500px;
+  z-index: 0;
+  transform: scaleX(-1);
+}
+
+.video-showcase::-webkit-media-controls-panel {
+  transform: scale(-1,1);
+}
